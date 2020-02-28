@@ -1,24 +1,29 @@
 {
-  "name": "webpack",
+  "name": "test-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "underscore": "^1.9.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.html"
+    "build": "webpack -p",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnastasiaGer/webpack.git"
+    "url": "git+https://github.com/AnastasiaGer/test-webpack.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnastasiaGer/webpack/issues"
+    "url": "https://github.com/AnastasiaGer/test-webpack/issues"
   },
-  "homepage": "https://github.com/AnastasiaGer/webpack#readme",
-  "dependencies": {
-    "jquery": "^3.4.1",
-    "underscore": "^1.9.2"
-  }
+  "homepage": "https://github.com/AnastasiaGer/test-webpack#readme"
 }
